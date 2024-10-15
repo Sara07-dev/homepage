@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&family=Montserrat:wght@400&display=swap");
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+font-family: 'Montserrat', sans-serif;;
+background-color: #f4f4f4;
+color: #333;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+min-height: 100vh;
+}
+header {
+background-color: #bb73d8; 
+padding: 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+header h1 {
+color: white;
+font-family: 'Montserrat', sans-serif;
+cursor: pointer;
+}
+nav ul {
+list-style-type: none;
+display: flex;
+font-family: 'Montserrat', sans-serif;
+}
+nav ul li {
+margin-left: 20px;
+}
+nav ul li a {
+color: white;
+text-decoration: none;
+font-size: 20px;
+font-family: 'Montserrat', sans-serif;
+}
+nav ul li a:hover {
+text-decoration: underline;
+color: #000000;
+}
+.hero {
+background-color: #ddaff0; 
+padding: 100px 20px;
+text-align: center;
+}
+.hero h2 {
+color: #74508a;
+font-size: 50px;
+font-family: 'Montserrat', sans-serif;
+
+}
+.hero p {
+font-size: 18px;
+margin: 20px ;
+color: #745088;
+}
+.hero button {
+padding: 10px 20px;
+background-color: #784b8d;
+color: white;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+font-family: 'Montserrat', sans-serif;
+}
+.hero button:hover {
+background-color: #edb2fc;
+}
+.services {
+padding: 50px 20px;
+text-align: center;
+background-color: #faf1ff;
+font-family: 'Montserrat', sans-serif;
+}
+.services h3 {
+font-size: 28px;
+color: #c387db;
+margin-bottom: 20px;
+font-family: 'Montserrat', sans-serif;
+}
+.service-items {
+display: flex;
+justify-content: space-around;
+}
+.service-item  {
+background-color: #eabbff8f;
+padding: 20px;
+border-radius: 10px;
+width: 30%;
+font-family: 'Montserrat', sans-serif;
+cursor: pointer;
+;
+}
+.service-item h4 {
+color: #5e4b8d;
+margin-bottom: 10px;
+font-family: 'Montserrat', sans-serif;
+}
+.service-item p {
+color: #333;
+font-family: 'Montserrat', sans-serif;
+}
+footer {
+background-color: #5e4b8d;
+padding: 10px;
+text-align: center;
+color: white;
+position: relative;
+bottom: 0;
+width: 100%;
+font-family: 'Montserrat', sans-serif;
+box-shadow: 0 0 15px rgba(187, 115, 216, 0.7); /* Soft purple glow */
+text-shadow: 0 0 5px rgba(195, 135, 219, 0.7); /* Soft pinkish glow on text */
+transition: box-shadow 0.3s ease, text-shadow 0.3s ease; /* Smooth glowing effect */
+
+}
+
+footer:hover {
+box-shadow: 0 0 25px rgba(187, 115, 216, 1); /* Stronger glow on hover */
+text-shadow: 0 0 10px rgba(195, 135, 219, 1); /* Stronger text glow on hover */
+}
